@@ -1,0 +1,22 @@
+button {
+    background-color: #7d7f82;
+    color: #fedc32;
+}
+
+#cartCheckOut{
+    padding-top: 10px;
+}
+
+span{
+    color: #7d7f82;
+}
+
+.navbar{
+    background-color: #fedc32; 
+    padding-right: 20px;
+}
+
+.dropdown-menu{
+    color: #fedc32; 
+    background-color: #7d7f82;
+}

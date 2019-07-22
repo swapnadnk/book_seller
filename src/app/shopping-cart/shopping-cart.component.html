@@ -1,0 +1,17 @@
+<div class="row">
+    <app-shopping-cart-item
+        *ngFor = "let cartItem of cartItems; let i = index"
+        [cartItem] = "cartItem"
+        [index] = i>
+    </app-shopping-cart-item>
+    <div class="col-xs-4" 
+    style="background-color: #ffffff; 
+    position: fixed;
+    top: 82px;
+    left: 720px;
+    color: #7d7f82;
+    border-radius: 5px">
+            <h3>Total:</h3> 
+            <p>{{ cartTotalAmount }}</p>
+    </div>    
+</div>

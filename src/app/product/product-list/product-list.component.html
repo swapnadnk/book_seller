@@ -1,0 +1,7 @@
+<div class="row">
+  <app-product-item
+  *ngFor = "let book of books; let i = index"
+  [book] = "book"
+  [index] = i
+  ></app-product-item>
+</div>
